@@ -1,0 +1,17 @@
+# requirements.txt
+cat > requirements.txt <<'PYREQ'
+flask
+flask-cors
+torch
+torchvision
+transformers
+librosa
+numpy
+pandas
+opencv-python
+requests
+gunicorn
+uvicorn
+python-multipart
+SpeechRecognition
+PYREQ

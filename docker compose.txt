@@ -1,0 +1,11 @@
+# docker-compose.yml
+cat > docker-compose.yml <<'DC'
+version: '3.8'
+services:
+backend:
+build: .
+ports:
+- "8000:8000"
+volumes:
+- ./:/app
+DC

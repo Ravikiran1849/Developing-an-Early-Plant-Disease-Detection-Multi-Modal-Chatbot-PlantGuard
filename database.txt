@@ -1,0 +1,4 @@
+# set base dir
+BASE=~/plantguard_flask_react
+mkdir -p "$BASE"
+cd "$BASE"

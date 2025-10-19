@@ -1,0 +1,2 @@
+# create folders
+mkdir -p data/images data/audio data/text models src/backend src/frontend/src src/frontend/public
